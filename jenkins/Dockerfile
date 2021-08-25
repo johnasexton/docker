@@ -1,4 +1,5 @@
 FROM jenkinsci/jenkins:lts
+MAINTAINER john.a.sexton@gmail.com
 USER root
 RUN apt-get update && \
     apt-get -y install \
