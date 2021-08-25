@@ -1,4 +1,5 @@
 FROM jenkins/inbound-agent:latest-jdk11
+MAINTAINER john.a.sexton@gmail.com
 USER root
 RUN apt-get update && \
     apt-get -y install \
