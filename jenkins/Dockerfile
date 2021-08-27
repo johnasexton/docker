@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:lts
+FROM jenkins/jenkins:2.289.3-jdk11
 MAINTAINER john.a.sexton@gmail.com
 USER root
 RUN apt-get update && \
